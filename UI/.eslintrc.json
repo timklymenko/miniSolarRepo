@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "flowtype"
+    ],
+    "rules": {
+        "quotes": ["warn", "single"],
+        "semi": ["error", "never"],
+        "object-curly-newline": "warn",
+        "implicit-arrow-linebreak": "off",
+        "arrow-parens": "off",
+        "operator-linebreak": "off",
+        "no-console": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/destructuring-assignment": "off",
+        "react/prefer-stateless-function": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/static-property-placement": "off",
+        "react/jsx-curly-newline": "off",
+        "import/prefer-default-export": "warn",
+        "jsx-a11y/label-has-associated-control": ["error", {
+            "required": {
+                "some": ["nesting", "id"]
+            }
+        }]
+    }
+}

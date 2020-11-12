@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../server"
+		},
+		{
+			"path": "../diaries"
+		},
+		{
+			"path": "../test_data"
+		}
+	],
+	"settings": {}
+}
